@@ -11,10 +11,20 @@ let box = document.getElementById('box'),
     circle[1].style.backgroundColor = 'yellow';
     circle[2].style.backgroundColor = 'green';
 
-    heart.forEach(function(item, i, hearts)
-    {
-        item.style.backgroundColor = 'blue';
-    }
-    )
+    //heart.forEach(function(item, i, hearts)
+    //{
+      //  item.style.backgroundColor = 'blue';
+    //}
+    //)
 
+    let div = document.createElement('div');
+    let text = document.createTextNode('I am here');
+
+    div.classList.add('black');
+
+    console.log(div);
+
+    document.body.appendChild(div);
+
+    
 
